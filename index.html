@@ -1,37 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <!-- Meta Pixel Code -->
     <script>
-        ! function(f, b, e, v, n, t, s) {
-            if (f.fbq) return;
-            n = f.fbq = function() {
+        !function(f,b,e,v,n,t,s){
+            if(f.fbq)return;
+            n=f.fbq=function(){
                 n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                n.callMethod.apply(n,arguments) : n.queue.push(arguments)
             };
-            if (!f._fbq) f._fbq = n;
-            n.push = n;
-            n.loaded = !0;
-            n.version = '2.0';
-            n.queue = [];
-            t = b.createElement(e);
-            t.async = !0;
-            t.src = v;
-            s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '755165376976296');
-        fbq('track', 'PageView');
+            if(!f._fbq)f._fbq=n;
+            n.push=n; n.loaded=!0; n.version='2.0';
+            n.queue=[];
+            t=b.createElement(e); t.async=!0;
+            t.src=v;
+            s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)
+        }(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init','755165376976296');
+        fbq('track','PageView');
     </script>
-    <noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=755165376976296&ev=PageView&noscript=1"
-/></noscript>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=755165376976296&ev=PageView&noscript=1"/>
+    </noscript>
     <!-- End Meta Pixel Code -->
+
     <meta charset="UTF-8">
-    <title>C K BHAI(2016)CRICKET ANALYSIS</title>
+    <title>C K BHAI (2016) Cricket Analysis</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
@@ -41,34 +40,73 @@ src="https://www.facebook.com/tr?id=755165376976296&ev=PageView&noscript=1"
     <div class="animated-bg"></div>
 
     <main class="card">
-        <img src="">
 
-        <h1>C K BHAI(2016) CRICKET ANALYST</h1>
-        <p class="subtitle">India’s No.1 Cricket Analyst 🏏</p>
+        <h1>C K BHAI (2016)</h1>
+        <p class="subtitle">Professional Cricket Analyst 🏏</p>
 
-        <!-- League Logo ABOVE Countdown -->
         <div class="league-box">
-            <img id="leagueLogo" src="assets/logo1.png" alt="League">
+            <img id="leagueLogo" src="assets/logo1.png" alt="League Logo">
         </div>
 
-        <div id="timer" class="timer">1:00</div>
+        <div id="timer" class="timer">01:00</div>
 
         <div class="animated-text">
             <h2>We Predict • You Win 💰</h2>
             <p>
-                League & International Matches<br> Trusted Since 2015<br>
+                League & International Matches<br>
+                Trusted Since 2015<br>
                 <span>VIP & Paid Predictions Available</span>
             </p>
         </div>
 
         <a href="https://t.me/+rbZJUG7E-mliMGNl" class="cta">
-    JOIN TELEGRAM
-  </a>
+            🚀 JOIN TELEGRAM
+        </a>
 
         <p class="vip">💎 VIP / Paid Tips Available</p>
+
+        <!-- NEON RECTANGULAR BOX (ONLY ADDITION) -->
+        <div style="
+            margin-top:18px;
+            padding:10px 18px;
+            border:2px solid #00ffff;
+            border-radius:6px;
+            color:#00ffff;
+            font-size:13px;
+            letter-spacing:1px;
+            text-align:center;
+            box-shadow:
+                0 0 5px #00ffff,
+                0 0 10px #00ffff,
+                0 0 20px #00ffff,
+                inset 0 0 10px #00ffff;
+            animation: neonGlow 1.5s infinite alternate;
+        ">
+            ADS SETUP BY - @mrxsetup
+        </div>
+
     </main>
 
-    <script src="script.js"></script>
-</body>
+    <!-- Neon Animation -->
+    <style>
+        @keyframes neonGlow {
+            from {
+                box-shadow:
+                    0 0 5px #00ffff,
+                    0 0 10px #00ffff,
+                    inset 0 0 8px #00ffff;
+            }
+            to {
+                box-shadow:
+                    0 0 10px #00ffff,
+                    0 0 20px #00ffff,
+                    0 0 30px #00ffff,
+                    inset 0 0 15px #00ffff;
+            }
+        }
+    </style>
 
+    <script src="script.js"></script>
+
+</body>
 </html>
