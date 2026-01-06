@@ -18,12 +18,12 @@
             s.parentNode.insertBefore(t,s)
         }(window, document,'script',
         'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init','755165376976296');
+        fbq('init','1977805139818585');
         fbq('track','PageView');
     </script>
     <noscript>
         <img height="1" width="1" style="display:none"
-        src="https://www.facebook.com/tr?id=755165376976296&ev=PageView&noscript=1"/>
+        src="https://www.facebook.com/tr?id=1977805139818585&ev=PageView&noscript=1"/>
     </noscript>
     <!-- End Meta Pixel Code -->
 
@@ -37,76 +37,109 @@
 
 <body>
 
-    <div class="animated-bg"></div>
+<div class="animated-bg"></div>
 
-    <main class="card">
+<main class="card">
 
-        <h1>C K BHAI (2016)</h1>
-        <p class="subtitle">Professional Cricket Analyst 🏏</p>
+    <!-- NEON FIRE NAME BOX -->
+    <div class="neon-fire-box">
+        CK BHAI
+        <span class="flame"></span>
+        <span class="flame"></span>
+        <span class="flame"></span>
+    </div>
 
-        <div class="league-box">
-            <img id="leagueLogo" src="assets/logo1.png" alt="League Logo">
-        </div>
+    <p class="subtitle">Professional Cricket Analyst 🏏</p>
 
-        <div id="timer" class="timer">01:00</div>
+    <div class="league-box">
+        <img id="leagueLogo" src="assets/logo1.png" alt="League Logo">
+    </div>
 
-        <div class="animated-text">
-            <h2>We Predict • You Win 💰</h2>
-            <p>
-                League & International Matches<br>
-                Trusted Since 2015<br>
-                <span>VIP & Paid Predictions Available</span>
-            </p>
-        </div>
+    <div id="timer" class="timer">01:00</div>
 
-        <a href="https://t.me/+rbZJUG7E-mliMGNl" class="cta">
-            🚀 JOIN TELEGRAM
-        </a>
+    <div class="animated-text">
+        <h2>We Predict • You Win 💰</h2>
+        <p>
+            League & International Matches<br>
+            Trusted Since 2015<br>
+            <span>VIP & Paid Predictions Available</span>
+        </p>
+    </div>
 
-        <p class="vip">💎 VIP / Paid Tips Available</p>
+    <a href="https://t.me/+rbZJUG7E-mliMGNl" class="cta">
+        🚀 JOIN TELEGRAM
+    </a>
 
-        <!-- NEON RECTANGULAR BOX (ONLY ADDITION) -->
-        <div style="
-            margin-top:18px;
-            padding:10px 18px;
-            border:2px solid #00ffff;
-            border-radius:6px;
-            color:#00ffff;
-            font-size:13px;
-            letter-spacing:1px;
-            text-align:center;
-            box-shadow:
-                0 0 5px #00ffff,
-                0 0 10px #00ffff,
-                0 0 20px #00ffff,
-                inset 0 0 10px #00ffff;
-            animation: neonGlow 1.5s infinite alternate;
-        ">
-            ADS SETUP BY - @mrxsetup
-        </div>
+    <p class="vip">💎 VIP / Paid Tips Available</p>
 
-    </main>
+    <!-- ADS NEON BOX -->
+    <div class="ads-neon">
+        ADS SETUP BY - @mrxsetup
+    </div>
 
-    <!-- Neon Animation -->
-    <style>
-        @keyframes neonGlow {
-            from {
-                box-shadow:
-                    0 0 5px #00ffff,
-                    0 0 10px #00ffff,
-                    inset 0 0 8px #00ffff;
-            }
-            to {
-                box-shadow:
-                    0 0 10px #00ffff,
-                    0 0 20px #00ffff,
-                    0 0 30px #00ffff,
-                    inset 0 0 15px #00ffff;
-            }
-        }
-    </style>
+</main>
 
-    <script src="script.js"></script>
+<!-- NEON + FIRE EFFECT CSS -->
+<style>
+.neon-fire-box{
+    position:relative;
+    padding:14px 30px;
+    border:2px solid #00ffff;
+    color:#00ffff;
+    font-size:26px;
+    font-weight:700;
+    letter-spacing:2px;
+    text-align:center;
+    border-radius:6px;
+    box-shadow:
+        0 0 10px #00ffff,
+        0 0 25px #00ffff,
+        inset 0 0 15px #00ffff;
+    margin-bottom:10px;
+    overflow:hidden;
+}
 
+.neon-fire-box .flame{
+    position:absolute;
+    bottom:-10px;
+    width:6px;
+    height:20px;
+    background:linear-gradient(to top, orange, red, transparent);
+    animation: fire 1.2s infinite ease-in-out;
+    opacity:0.8;
+}
+
+.neon-fire-box .flame:nth-child(1){ left:30%; animation-delay:0s;}
+.neon-fire-box .flame:nth-child(2){ left:50%; animation-delay:.3s;}
+.neon-fire-box .flame:nth-child(3){ left:70%; animation-delay:.6s;}
+
+@keyframes fire{
+    0%{ transform:translateY(0) scale(1); opacity:.8;}
+    100%{ transform:translateY(-35px) scale(.3); opacity:0;}
+}
+
+.ads-neon{
+    margin-top:18px;
+    padding:10px 18px;
+    border:2px solid #00ffff;
+    color:#00ffff;
+    font-size:13px;
+    text-align:center;
+    letter-spacing:1px;
+    border-radius:6px;
+    box-shadow:
+        0 0 5px #00ffff,
+        0 0 15px #00ffff,
+        inset 0 0 10px #00ffff;
+    animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow{
+    from{ box-shadow:0 0 5px #00ffff;}
+    to{ box-shadow:0 0 20px #00ffff;}
+}
+</style>
+
+<script src="script.js"></script>
 </body>
 </html>
